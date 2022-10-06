@@ -10,9 +10,9 @@ class New extends React.Component{
             </nav>
             <form method="POST" action="/vegetables">
                 Name: <input type="text" name="name" placeholder="Name of Vegetable Here" /> <br />
-                Color: <input type="text" name="color" placeholder="Color of Fruit Here" /> <br />
+                Color: <input type="text" name="color" placeholder="Color of Vegetable Here" /> <br />
                 Is Ready To Eat: <input type="checkbox" name="readyToEat" /> <br />
-                <input type="submit" value="Submit Fruit"/>
+                <input type="submit" value="Submit Vegetable"/>
             </form>
             </>
         )

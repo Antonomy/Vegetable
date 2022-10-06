@@ -8,7 +8,7 @@ class Show extends React.Component{
             <>
                 <h1> {capName} Show Page </h1>
                 <nav>
-                    <a href="/fruits">Back To Fruits Home</a> <br />
+                    <a href="/fruits">Back To Vegetables Home</a> <br />
                     <a href={`/fruits/${_id}/edit`}>{`Edit the ${capName}`}</a>
                 </nav>
                 <p>{capName} is {color} and {readyToEat? 'it\'s ready to eat': 'it\'s not ready to eat'}</p>
